@@ -1,0 +1,14 @@
+#d1{
+    width:100%;
+    height:516px;/*如果您的div已经有了需要占满全屏，您的div的宽度可以设置为100%,
+        这样您的div会随您的页面改变其尺寸，但对于具体的div的宽度与高度根据需要进行设置。*/
+    background:url(../images/beatles.jpg);
+    background-repeat:no-repeat;/*如背景小于页面，而页面没有
+        固定宽度的话，那么图片背景就会产生平铺，我们需要设置不让其自动平铺。*/
+    background-size:cover;/*对图片进行等比例扩大，当然也可以拉伸，拉伸会失真，
+                          等比例获得会失去一部分图片*/
+    display:block;
+    margin:0 auto;/*div需要居中，设置margrin:0 auto即可*/
+    box-sizing:border-box;
+    overflow-x:hidden   /*裁剪溢出部分*/ 
+}
